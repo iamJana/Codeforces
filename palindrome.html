@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>palindrome</title>
+    </head>
+    <body>
+       <h2>check whether it is palindrome or not?</h2> 
+        <h3>Given string!!</h3>
+        <p id="before"></p>
+        <h3>After checking !!</h3>
+        <p id="after"></p>
+        <script>
+            function palindrome(str){
+                let i = 0;
+                let j = str.length - 1;
+                while(i < j) {
+                    if(str[i] == str[j]) {
+                    i++; 
+                    j--;
+                    }
+                    else {
+                        return false;
+                    }
+                }
+                return true;
+            }
+            
+            var str="madam";
+            document.getElementById("before").innerHTML=str;
+            var reverseword=palindrome(str);
+            if(reverseword==true)
+            {
+                var result="It is Palindrome";
+            }
+            else{
+               var result="It is not a Palindrome";
+            }
+            document.getElementById("after").innerHTML=result;
+        </script>
+    </body>
+</html>
