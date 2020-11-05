@@ -1,0 +1,1 @@
+{"name":"Local: test","url":"e:\\Codeforces\\test.cpp","tests":[{"id":1603947636321,"input":"2\ni.like.this.program.very.much\npqr.mno","output":"much.very.program.this.like.i\nmno.pqr"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\Codeforces\\test.cpp","group":"local","local":true}

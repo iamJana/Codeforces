@@ -1,0 +1,1 @@
+{"name":"Local: A_Array_Rearrangment","url":"e:\\Codeforces\\A\\A_Array_Rearrangment.cpp","tests":[{"id":1604280956160,"input":"4\n3 4\n1 2 3\n1 1 2\n\n2 6\n1 4\n2 5\n\n4 4\n1 2 3 4\n1 2 3 4\n\n1 5\n5\n5","output":"Yes\nYes\nNo\nNo"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\Codeforces\\A\\A_Array_Rearrangment.cpp","group":"local","local":true}
