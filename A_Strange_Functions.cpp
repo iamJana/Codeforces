@@ -3,11 +3,9 @@ using namespace std;
 #define For(it,val,n) for (int it=val;it<n;it++)
 void solve()
 {
-  int a;
-  int b;
-  cin>>a>>b;
-  cout<<a+b<<"\n";
-
+string s;
+cin>>s;
+cout<<s.length()<<endl;
 }
 int main()
 {

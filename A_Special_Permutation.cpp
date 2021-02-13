@@ -3,11 +3,12 @@ using namespace std;
 #define For(it,val,n) for (int it=val;it<n;it++)
 void solve()
 {
-  int a;
-  int b;
-  cin>>a>>b;
-  cout<<a+b<<"\n";
-
+int n;
+cin>>n;
+int i;
+for(i=1;i<n;i++)
+cout<<i+1<<" ";
+cout<<1<<endl;
 }
 int main()
 {
