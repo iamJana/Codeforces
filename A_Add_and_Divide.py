@@ -1,12 +1,13 @@
 def fun():
     a, b = [int(x) for x in input().split()]
-
+    x=a
+    y=b
     count = 0
     for i in range(1, a):
-        if a == 0:
+        if x == 0:
             return count
             break
-        elif a != b:
+        elif x != b:
             a = a//b
             count = count+1
         else:
